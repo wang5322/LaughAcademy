@@ -1,0 +1,68 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans:wght@400;600&family=Poiret+One&display=swap');
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans%7CPalette+Mosaic%7CPoiret+One%7CInter%7CNunito');
+/* TODO: Install Palette Mosaic or choose an alternative font that is available on google fonts*/
+
+/*
+COLOR PALETTE
+#2966A4 - dark blue
+#F1AB23 - dark yellow
+#A72819 - red
+#5CBFE6 - light blue
+#57B9A5 - light green
+*/
+body{
+    background-image: url("images/stars.png");
+}
+
+h1{
+    font-family:'Open Sans', 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: xx-large;
+}
+h2{
+    font-family:'Palette Mosaic', 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: xx-large;
+}
+h3{
+    font-family:'Palette Mosaic', 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: x-large;
+}
+h4{
+    font-family:'Poiret One', 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: x-large;
+}
+h5{
+    font-family:'Nunito','Ariel', Sans-serif;
+    font-size: large;
+}
+p{
+    font-family:'Nunito','Ariel', Sans-serif;
+    font-size: medium;
+
+}
+
+.container{
+    width: 90%;
+    padding: 2em;
+}
+
+.row{
+    padding: 1em;
+    
+}
+.card{
+    box-shadow: -3px -3px 20px rgb(152, 128, 118),3px 3px 20px rgb(38, 35, 47);
+}
+.card:hover{
+   box-shadow: -3px -3px 20px rgb(210, 66, 9),3px 3px 20px rgb(38, 35, 47);
+}
+/* Considering we have buttons of different colors, should we use a more specific class instead of btn to define all the buttons? */
+.btn{
+    background-color: #F1AB23;
+    font-family:'Nunito','Times New Roman', Times, serif;
+    font-size: large;
+}
+.btn:hover{
+    background-color:#F9A909;
+}
